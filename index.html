@@ -137,6 +137,10 @@
   footer{background:var(--navy);color:var(--navy-muted);font-size:14px;padding:20px 0 28px;border-top:1px solid #1E3B4D}
   footer .row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
+  .next{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:22px 24px;box-shadow:var(--shadow);display:grid;grid-template-columns:1fr 1fr;gap:20px 32px}
+  .next .item h3{font-size:20px}
+  .next .item p{color:var(--slate);font-size:16px;margin-top:6px}
+  .next .badge{display:inline-block;font-family:"Barlow Condensed",sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:12px;color:var(--orange);border:1px solid var(--orange);border-radius:3px;padding:1px 7px;margin-bottom:8px}
   @media (max-width:820px){
     .hero-grid,.sec-head,.why,.area,.contact .grid{grid-template-columns:1fr}
     .services{grid-template-columns:1fr}
@@ -144,6 +148,7 @@
     .zone{border-left:0;border-top:1px solid var(--navy-muted)}
     .zone:first-child{border-top:0}
     form{grid-template-columns:1fr}
+    .next{grid-template-columns:1fr}
     .fill{white-space:normal}
     th,td{padding:10px 10px;font-size:14px}
     td.k{width:30%}
@@ -165,6 +170,7 @@
     </div>
     <nav aria-label="Sections">
       <a href="#services">Services</a>
+      <a href="#next">Next up</a>
       <a href="#fleet">Fleet</a>
       <a href="#area">Service area</a>
       <a href="#quote">Get a quote</a>
@@ -230,6 +236,30 @@
         <h3>Local &amp; final-mile cold chain</h3>
         <p>Cross-dock to restaurant, caterer, or cafeteria. Liftgate delivery, hand-unload, signature on every stop.</p>
         <div class="tag">Frozen · refrigerated · dry</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="next">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Next up</div>
+        <h2 style="margin-top:8px">Vehicle transport &amp; towing</h2>
+      </div>
+      <p>Refrigerated routes are running today. Two more services are being staffed now. Ask about timing when you call.</p>
+    </div>
+    <div class="next">
+      <div class="item">
+        <span class="badge">Staffing now</span>
+        <h3>Rollback auto transport</h3>
+        <p>Dealer and auction moves on a rollback: auction to lot, lot to auction, and delivery to private buyers. Single-unit, enclosed-quality care on an open flatbed.</p>
+      </div>
+      <div class="item">
+        <span class="badge">Staffing now</span>
+        <h3>Towing, recovery &amp; municipal contracts</h3>
+        <p>Accident and infraction towing, repossession recovery, and city contract work to keep streets clear. Licensed, insured, and dispatchable.</p>
       </div>
     </div>
   </div>
